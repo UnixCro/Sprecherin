@@ -1,5 +1,5 @@
 #Text, der einfach zu sagen ist
-
+try
 repeat 100 times
 	set Fenster to display dialog "Hier den zu sprechenden Text eingeben" buttons {"ABBRECHEN", "BESTÄTIGEN"} default button 2 default answer "" with title "Sprecherin Anna"
 	set Texteingabe to text returned of Fenster
@@ -11,3 +11,4 @@ repeat 100 times
 		
 	end if
 end repeat
+end try
